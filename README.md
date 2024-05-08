@@ -18,7 +18,7 @@ Welcome! Azure AI Document Intelligence is a cloud service that uses machine lea
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Setup](#setup)
-- [Running the samples](#running-the-samples)
+- [Run the samples](#run-the-samples)
 - [Next steps](#next-steps)
 
 
@@ -73,7 +73,7 @@ pip install azure-ai-documentintelligence --pre
   [**Prebuilt models**](Python(v4.0)/Prebuilt_model): Add intelligent document processing to your apps and flows without having to train and build your own models.
   
 > [sample_analyze_invoices.py](Python(v4.0)/Prebuilt_model/sample_analyze_invoices.py) — Extract and analyze customer and vendor details from invoice documents.  
-> [sample_analyze_identity_documents.py](Python(v4.0)/Prebuilt_model/sample_analyze_identity_documents.py) — Extract and analyze identification and verification details identification documents. 
+> [sample_analyze_identity_documents.py](Python(v4.0)/Prebuilt_model/sample_analyze_identity_documents.py) — Extract and analyze identification and verification details identification documents.     
 > [sample_analyze_receipts.py](Python(v4.0)/Prebuilt_model/sample_analyze_receipts.py) — Extract and analyze sales transaction details from receipt documents.
 > [sample_analyze_tax_us_w2.py](Python(v4.0)/Prebuilt_model/sample_analyze_tax_us_w2.py) — Extract and analyze taxable compensation details from US tax W-2 forms.
 
@@ -86,7 +86,7 @@ pip install azure-ai-documentintelligence --pre
 > [sample_analyze_addon_languages.py](Python(v4.0)/Add-on_capabilities/sample_analyze_addon_languages.py) - Detact language from documents using this add-on capability.  
 > [sample_analyze_addon_query_fields.py](Python(v4.0)/Add-on_capabilities/sample_analyze_addon_query_fields.py) - Specify and extract query fields from documents using this add-on capability.
 
-[**Custom model**](Custom_model): Train your own models to extract data from structured and unstructured documents.
+[**Custom model**](Python(v4.0)/Custom_model): Train your own models to extract data from structured and unstructured documents.
 
 > [sample_analyze_custom_documents.py](Python(v4.0)/Custom_model/sample_analyze_custom_documents.py) - Analyze a document with a custom built model. The document must be of the same type as the documents the custom model was trained on.  
 > [sample_classify_document.py](Python(v4.0)/Custom_model/sample_classify_document.py) - Classify a document using a trained document classifier.  
